@@ -1,0 +1,381 @@
+@media (max-width: 768px) {
+  .toggler {
+    display: block;
+  }
+  .nav__wrapp {
+    position: relative;
+  }
+  .btnnn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #4b3d2a;
+    font-size: 20px;
+    padding: 10px 33% 10px 33%;
+    font-family: "Oswald";
+  }
+  .nav__list {
+    height: 80vh;
+    width: 100%;
+    padding: 49px 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    flex-direction: column;
+    background-color: #EFEEF4;
+    align-items: flex-start;
+    transform: translateX(-100%);
+    transition: all 0.7s ease;
+  }
+  #menu__checkbox:checked + .nav__list {
+    transform: translateX(0);
+  }
+  .vebb {
+    width: 50px;
+    height: 50px;
+  }
+  .btn {
+    display: none;
+  }
+  .nav__iytem {
+    padding: 20px 55% 20px 20px;
+  }
+  .about {
+    padding: 20px 100% 20px 20px;
+    margin: 0;
+  }
+  .nav__link {
+    color: #4b3d2a;
+    white-space: nowrap;
+  }
+  .container {
+    padding: 0px;
+    align-items: center;
+  }
+  .container .h6 {
+    white-space: nowrap;
+    padding: 0px 0px 0 0 !important;
+    font-size: 20px !important;
+  }
+  .container .h6 a {
+    font-size: 20px;
+  }
+  .container .h5 {
+    padding: 0 0 5px 0;
+    font-size: 20px;
+  }
+  .wrapp {
+    width: 100%;
+  }
+  .containerr {
+    padding: 70px;
+    align-items: center;
+  }
+  .containerr .h6 {
+    white-space: nowrap;
+    padding: 80px 40px 0 0 !important;
+    font-size: 20px !important;
+  }
+  .containerr .h6 a {
+    font-size: 20px;
+  }
+  .containerr .h5 {
+    padding: 0 0 5px 0;
+    font-size: 20px;
+  }
+  .wrappp {
+    width: 100%;
+  }
+  .nav__linkk {
+    font-size: 20px;
+  }
+  .list {
+    align-items: center;
+    padding: 0px 0 0 0;
+    margin: 0;
+  }
+  .listt {
+    align-items: center;
+    padding: 80px 0 0 0;
+    margin: 0;
+  }
+  .bosh__list {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .bosh__list h2 {
+    width: 350%;
+    font-size: 30px;
+    text-align: center;
+  }
+  .slider {
+    display: none;
+  }
+  .hero {
+    width: 100%;
+    height: 90vh;
+    flex-direction: column;
+    padding: 0;
+    justify-content: start;
+  }
+  .content h2 {
+    width: 100%;
+    font-size: 25px;
+    padding: 80% 13% 0;
+  }
+  .yangilik__container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .yangilik__list {
+    padding: 0;
+    margin: 0;
+  }
+  .yangilik__iytem {
+    width: 370px;
+    padding: 0;
+    margin: 0;
+  }
+  .yangilik__iytem img {
+    margin: 0;
+  }
+  .delete {
+    display: none;
+  }
+  .bolim__list {
+    flex-wrap: wrap;
+  }
+  .bolim__list img {
+    width: 200px;
+    height: 200px;
+    margin: 0 0 0 30px;
+  }
+  .kompaniya__list {
+    flex-wrap: wrap;
+  }
+  .text h2 {
+    padding: 20px;
+  }
+  .text h3 {
+    padding: 0 20px 20px;
+  }
+  .text p {
+    padding: 20px;
+  }
+  .btnn {
+    padding: 0;
+    margin: 60px 0;
+  }
+  .pechenya__iytem {
+    display: block;
+  }
+  .pechenya__iytem img {
+    display: block;
+    margin: 0 0 20px 0;
+  }
+  .biz__list img {
+    width: 90%;
+    height: 40%;
+  }
+  .biz__iytem h2 {
+    padding: 30px 0 0 0;
+  }
+  .biz__iytem h3 {
+    padding: 20px 30px;
+  }
+  .biz__iytem p {
+    padding: 0 0 0 20%;
+    width: 80%;
+  }
+  .manzil__list {
+    flex-direction: column-reverse;
+  }
+  .manzil__iytem {
+    padding: 20px 0;
+  }
+  .manzil__iytem h3 {
+    padding: 0 20px;
+  }
+  .ijtimoiytarmoq__list {
+    flex-wrap: wrap;
+  }
+  .ijtimoiytarmoq__list img {
+    width: 70px;
+    height: 70px;
+  }
+  .forlup__wrapp {
+    flex-direction: column;
+  }
+  .forlup__list {
+    padding: 0 0 0 30px;
+  }
+  .forlup__wrapp div h2 {
+    text-align: start;
+    padding: 0 0 0 30px;
+  }
+  .ddd {
+    margin: 0 0 0 30px !important;
+  }
+  .sss {
+    padding: 0 0 0 30px !important;
+  }
+  .yangilik__container h2 {
+    padding: 60px 20px 20px;
+    font-size: 25px;
+  }
+  .qadoq__container h3 {
+    padding: 70px 0 0 50px;
+  }
+  .qadoq__container h2 {
+    font-size: 25px;
+  }
+  .qadoq__iytem {
+    width: 160px;
+    height: 190px;
+  }
+  .qadoq__iytem img {
+    width: 150px;
+    height: 140px;
+  }
+  .qadoq__iytem p {
+    width: 140px;
+    font-size: 9px;
+  }
+  .kilo__container h3 {
+    padding: 70px 0 0 60px;
+  }
+  .kilo__container h2 {
+    font-size: 25px;
+  }
+  .kilo__iytem img {
+    width: 150px !important;
+    height: 150px;
+  }
+  .kilo__iytem p {
+    width: 150px;
+    font-size: 10px;
+  }
+  .round {
+    margin: 0 0 30px;
+  }
+  .xaqimizda__list h2 {
+    padding: 50px 0 40px;
+    font-size: 20px;
+  }
+  .xaqimizda__list img {
+    width: 90%;
+    height: 40%;
+  }
+  .xaqimizda__list p {
+    font-size: 20px;
+  }
+  .onas__container {
+    text-align: center;
+  }
+  .onas__container .pap {
+    padding: 20px;
+  }
+  .onas__container img {
+    width: 90%;
+    height: 40%;
+    margin: 0;
+  }
+  .onas__iytem {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .onas__iytem h5 {
+    width: 85%;
+    padding: 20px 0 20px 14%;
+  }
+  .onas__iytem h6 {
+    padding: 20px 10%;
+  }
+  .onas__iytem h3 {
+    width: 85%;
+    padding: 20px 0 20px 15%;
+  }
+  .onas__iytem h4 {
+    width: 85%;
+    padding: 20px 0 20px 15%;
+  }
+  .eksport__list .text {
+    font-size: 25px;
+  }
+  .eksport__list p {
+    font-size: 25px;
+  }
+  .eksport__iytem img {
+    width: 90%;
+    height: 40%;
+    margin: 30px 0;
+  }
+  .eksport__iytem h4 {
+    font-size: 10px;
+    left: 55%;
+    top: 43%;
+  }
+  .eksport__iytem h3 {
+    font-size: 10px;
+    left: 25%;
+    top: 60%;
+  }
+  .eksport__iytem h2 {
+    font-size: 10px;
+    left: 22%;
+    top: 58%;
+  }
+  .eksport__iytem h5 {
+    font-size: 10px;
+    left: 52%;
+    top: 76%;
+  }
+  .eksport__iytem h6 {
+    font-size: 10px;
+    left: 26%;
+    top: 80%;
+  }
+  .xalol__container {
+    padding: 20px;
+  }
+  .xalol__container img {
+    width: 90%;
+    height: 40%;
+  }
+  .h2__list {
+    padding: 50px 0;
+  }
+  .content__p {
+    padding: 0 0 20px 0;
+  }
+  .ya__wrapp {
+    padding: 20px;
+  }
+  .ya__wrapp h2 {
+    font-size: 12px;
+  }
+  .ya__list h3 {
+    font-size: 12px;
+  }
+  .contenttt {
+    width: 150px;
+    height: 137px;
+  }
+  .content__p {
+    font-size: 10px !important;
+    padding: 15px 0;
+  }
+  .contenttti {
+    width: 140px;
+    height: 130px;
+  }
+  .content__pi {
+    font-size: 10px !important;
+    padding: 15px 0;
+  }
+  .uchun__list {
+    padding: 0 20px;
+  }
+}/*# sourceMappingURL=phone.css.map */
